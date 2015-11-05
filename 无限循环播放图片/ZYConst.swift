@@ -6,8 +6,5 @@
 //  Copyright © 2015年 王志盼. All rights reserved.
 //
 
-import UIKit
 
-class ZYConst: NSObject {
-
-}
+let ZYImageGroups = 100   //图片组数
