@@ -16,13 +16,6 @@
 		09B747401BE99361008C03D9 /* ________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B7473F1BE99361008C03D9 /* ________Tests.swift */; };
 		09B7474B1BE99361008C03D9 /* ________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B7474A1BE99361008C03D9 /* ________UITests.swift */; };
 		09B7475F1BE99E3E008C03D9 /* newses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09B7475E1BE99E3E008C03D9 /* newses.plist */; };
-		09B747711BE99EC4008C03D9 /* MJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B747631BE99EC4008C03D9 /* MJConst.m */; };
-		09B747721BE99EC4008C03D9 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B747661BE99EC4008C03D9 /* MJFoundation.m */; };
-		09B747731BE99EC4008C03D9 /* MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B747681BE99EC4008C03D9 /* MJIvar.m */; };
-		09B747741BE99EC4008C03D9 /* MJType.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B7476A1BE99EC4008C03D9 /* MJType.m */; };
-		09B747751BE99EC4008C03D9 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B7476C1BE99EC4008C03D9 /* NSObject+MJCoding.m */; };
-		09B747761BE99EC4008C03D9 /* NSObject+MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B7476E1BE99EC4008C03D9 /* NSObject+MJIvar.m */; };
-		09B747771BE99EC4008C03D9 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B747701BE99EC4008C03D9 /* NSObject+MJKeyValue.m */; };
 		09B7477B1BE99F4B008C03D9 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B7477A1BE99F4B008C03D9 /* UIView+AutoLayout.m */; };
 		09B747811BE9A3B1008C03D9 /* ZYNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B747801BE9A3B1008C03D9 /* ZYNew.swift */; };
 		09B7478F1BE9A717008C03D9 /* ZYNewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B7478E1BE9A717008C03D9 /* ZYNewCell.swift */; };
@@ -62,21 +55,6 @@
 		09B7474A1BE99361008C03D9 /* ________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "________UITests.swift"; sourceTree = "<group>"; };
 		09B7474C1BE99361008C03D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09B7475E1BE99E3E008C03D9 /* newses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = newses.plist; sourceTree = "<group>"; };
-		09B747621BE99EC4008C03D9 /* MJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJConst.h; sourceTree = "<group>"; };
-		09B747631BE99EC4008C03D9 /* MJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJConst.m; sourceTree = "<group>"; };
-		09B747641BE99EC4008C03D9 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
-		09B747651BE99EC4008C03D9 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
-		09B747661BE99EC4008C03D9 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
-		09B747671BE99EC4008C03D9 /* MJIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJIvar.h; sourceTree = "<group>"; };
-		09B747681BE99EC4008C03D9 /* MJIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJIvar.m; sourceTree = "<group>"; };
-		09B747691BE99EC4008C03D9 /* MJType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJType.h; sourceTree = "<group>"; };
-		09B7476A1BE99EC4008C03D9 /* MJType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJType.m; sourceTree = "<group>"; };
-		09B7476B1BE99EC4008C03D9 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
-		09B7476C1BE99EC4008C03D9 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
-		09B7476D1BE99EC4008C03D9 /* NSObject+MJIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJIvar.h"; sourceTree = "<group>"; };
-		09B7476E1BE99EC4008C03D9 /* NSObject+MJIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJIvar.m"; sourceTree = "<group>"; };
-		09B7476F1BE99EC4008C03D9 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
-		09B747701BE99EC4008C03D9 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
 		09B747791BE99F4B008C03D9 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
 		09B7477A1BE99F4B008C03D9 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
 		09B7477F1BE9A075008C03D9 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "../Bridging-Header.h"; sourceTree = "<group>"; };
@@ -166,7 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				09B747781BE99F1A008C03D9 /* Category */,
-				09B747601BE99E92008C03D9 /* Library */,
 				09B7475C1BE99DDC008C03D9 /* Model */,
 				09B7475B1BE99DD6008C03D9 /* View */,
 				09B7475A1BE99DCA008C03D9 /* Controller */,
@@ -207,36 +184,6 @@
 				09B747801BE9A3B1008C03D9 /* ZYNew.swift */,
 			);
 			name = Model;
-			sourceTree = "<group>";
-		};
-		09B747601BE99E92008C03D9 /* Library */ = {
-			isa = PBXGroup;
-			children = (
-				09B747611BE99EC4008C03D9 /* MJExtension */,
-			);
-			name = Library;
-			sourceTree = "<group>";
-		};
-		09B747611BE99EC4008C03D9 /* MJExtension */ = {
-			isa = PBXGroup;
-			children = (
-				09B747621BE99EC4008C03D9 /* MJConst.h */,
-				09B747631BE99EC4008C03D9 /* MJConst.m */,
-				09B747641BE99EC4008C03D9 /* MJExtension.h */,
-				09B747651BE99EC4008C03D9 /* MJFoundation.h */,
-				09B747661BE99EC4008C03D9 /* MJFoundation.m */,
-				09B747671BE99EC4008C03D9 /* MJIvar.h */,
-				09B747681BE99EC4008C03D9 /* MJIvar.m */,
-				09B747691BE99EC4008C03D9 /* MJType.h */,
-				09B7476A1BE99EC4008C03D9 /* MJType.m */,
-				09B7476B1BE99EC4008C03D9 /* NSObject+MJCoding.h */,
-				09B7476C1BE99EC4008C03D9 /* NSObject+MJCoding.m */,
-				09B7476D1BE99EC4008C03D9 /* NSObject+MJIvar.h */,
-				09B7476E1BE99EC4008C03D9 /* NSObject+MJIvar.m */,
-				09B7476F1BE99EC4008C03D9 /* NSObject+MJKeyValue.h */,
-				09B747701BE99EC4008C03D9 /* NSObject+MJKeyValue.m */,
-			);
-			path = MJExtension;
 			sourceTree = "<group>";
 		};
 		09B747781BE99F1A008C03D9 /* Category */ = {
@@ -380,21 +327,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09B747731BE99EC4008C03D9 /* MJIvar.m in Sources */,
 				09B7472A1BE99361008C03D9 /* ViewController.swift in Sources */,
 				09B747301BE99361008C03D9 /* ________.xcdatamodeld in Sources */,
 				09B747811BE9A3B1008C03D9 /* ZYNew.swift in Sources */,
-				09B747711BE99EC4008C03D9 /* MJConst.m in Sources */,
-				09B747751BE99EC4008C03D9 /* NSObject+MJCoding.m in Sources */,
-				09B747741BE99EC4008C03D9 /* MJType.m in Sources */,
 				09B7478F1BE9A717008C03D9 /* ZYNewCell.swift in Sources */,
-				09B747721BE99EC4008C03D9 /* MJFoundation.m in Sources */,
 				0931EAE91BE9E34300DFA5AD /* ZYImageDisplayingView.swift in Sources */,
 				09B747281BE99361008C03D9 /* AppDelegate.swift in Sources */,
 				09B7477B1BE99F4B008C03D9 /* UIView+AutoLayout.m in Sources */,
 				09B76B731BEA052F00FF4EF3 /* ZYConst.swift in Sources */,
-				09B747771BE99EC4008C03D9 /* NSObject+MJKeyValue.m in Sources */,
-				09B747761BE99EC4008C03D9 /* NSObject+MJIvar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
